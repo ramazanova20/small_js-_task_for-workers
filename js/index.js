@@ -21,6 +21,7 @@ let arr = [
 
 
         function search() {
+            ntc.innerHTML = '';
             arr
             .forEach(item => {
                 if (item.ad.toLowerCase() === a.value.toLowerCase()) {
@@ -37,6 +38,7 @@ let arr = [
 
 
         function search1() {
+            ntc2.innerHTML = '';
             arr
             .map(item => {
                 if (item.salary >= b.value) {
@@ -53,6 +55,7 @@ let arr = [
 
 
         function search2() {
+            ntc3.innerHTML = '';
             arr
             .map(item => {
                 if (item.sex.toLowerCase() === c.value.toLowerCase()) {
