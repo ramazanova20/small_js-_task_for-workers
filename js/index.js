@@ -38,7 +38,7 @@ let arr = [
 
 
         function search1() {
-            ntc2.innerHTML = '';
+            ntc1.innerHTML = '';
             arr
             .map(item => {
                 if (item.salary >= b.value) {
