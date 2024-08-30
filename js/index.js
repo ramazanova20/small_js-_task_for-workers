@@ -22,7 +22,7 @@ let arr = [
 
         function search() {
             arr
-            .map(item => {
+            .forEach(item => {
                 if (item.ad.toLowerCase() === a.value.toLowerCase()) {
                 ntc.innerHTML += `
                     <div id='card'>
